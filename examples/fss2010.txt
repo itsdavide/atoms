@@ -1,0 +1,19 @@
+@events
+A B C D E F
+
+@relations
+#-C + -B
+#-C + A
+#-D + B + C
+#-E + C + D
+#-C + E
+#-D + E
+#-F + A
+#-F + B
+#-A + -B + F
+
+C * B <=> <0>
+C => A
+D => B + C
+E <=> C + D
+F <=> A * B

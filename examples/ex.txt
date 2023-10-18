@@ -1,0 +1,6 @@
+@events
+A B C D
+
+@relations
+C => A * B
+D * (A + B) <=> <0>

@@ -1,0 +1,7 @@
+@events
+H1 H2 H3 E
+
+@relations
+H1 * H2 <=> H1 * H3
+H1 * H3 <=> H2 * H3
+E * H1 <=> E * H2

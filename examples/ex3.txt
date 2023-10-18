@@ -1,0 +1,9 @@
+@events
+A B C D E
+
+@relations
+A => B
+B => C
+C => D
+D => E
+-E <=> <0>
